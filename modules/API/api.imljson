@@ -1,0 +1,16 @@
+{
+    "url": "https://api.reepay.com/v1/{{parameters.url}}",
+    "method": "{{parameters.method}}",
+    "qs": {
+        "{{...}}": "{{toCollection(parameters.qs, 'key', 'value')}}"
+    },
+    "body": "{{parameters.body}}",
+    "type": "text",
+    "response": {
+        "output": {
+            "headers": "{{headers}}",
+            "body": "{{body}}",
+            "statusCode": "{{statusCode}}"
+        }
+    }
+}

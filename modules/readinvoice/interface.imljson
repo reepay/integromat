@@ -1,0 +1,1405 @@
+[
+    {
+        "name": "id",
+        "type": "text"
+    },
+    {
+        "name": "handle",
+        "type": "text"
+    },
+    {
+        "name": "customer",
+        "type": "text"
+    },
+    {
+        "name": "subscription",
+        "type": "text"
+    },
+    {
+        "name": "plan",
+        "type": "text"
+    },
+    {
+        "name": "state",
+        "type": "text"
+    },
+    {
+        "name": "processing",
+        "type": "text"
+    },
+    {
+        "name": "type",
+        "type": "text"
+    },
+    {
+        "name": "amount",
+        "type": "number"
+    },
+    {
+        "name": "number",
+        "type": "number"
+    },
+    {
+        "name": "currency",
+        "type": "text"
+    },
+    {
+        "name": "due",
+        "type": "text"
+    },
+    {
+        "name": "failed",
+        "type": "text"
+    },
+    {
+        "name": "settled",
+        "type": "text"
+    },
+    {
+        "name": "cancelled",
+        "type": "text"
+    },
+    {
+        "name": "authorized",
+        "type": "text"
+    },
+    {
+        "name": "credits",
+        "type": "array",
+        "spec": {
+            "type": "collection",
+            "spec": [
+                {
+                    "name": "credit",
+                    "type": "text"
+                },
+                {
+                    "name": "amount",
+                    "type": "number"
+                },
+                {
+                    "name": "created",
+                    "type": "text"
+                }
+            ]
+        }
+    },
+    {
+        "name": "created",
+        "type": "text"
+    },
+    {
+        "name": "plan_version",
+        "type": "number"
+    },
+    {
+        "name": "dunning_plan",
+        "type": "text"
+    },
+    {
+        "name": "discount_amount",
+        "type": "number"
+    },
+    {
+        "name": "org_amount",
+        "type": "number"
+    },
+    {
+        "name": "amount_vat",
+        "type": "number"
+    },
+    {
+        "name": "amount_ex_vat",
+        "type": "number"
+    },
+    {
+        "name": "settled_amount",
+        "type": "number"
+    },
+    {
+        "name": "refunded_amount",
+        "type": "number"
+    },
+    {
+        "name": "authorized_amount",
+        "type": "number"
+    },
+    {
+        "name": "credited_amount",
+        "type": "number"
+    },
+    {
+        "name": "period_number",
+        "type": "number"
+    },
+    {
+        "name": "order_lines",
+        "type": "array",
+        "spec": {
+            "type": "collection",
+            "spec": [
+                {
+                    "name": "id",
+                    "type": "text"
+                },
+                {
+                    "name": "ordertext",
+                    "type": "text"
+                },
+                {
+                    "name": "amount",
+                    "type": "number"
+                },
+                {
+                    "name": "vat",
+                    "type": "number"
+                },
+                {
+                    "name": "quantity",
+                    "type": "number"
+                },
+                {
+                    "name": "origin",
+                    "type": "text"
+                },
+                {
+                    "name": "timestamp",
+                    "type": "text"
+                },
+                {
+                    "name": "discounted_amount",
+                    "type": "number"
+                },
+                {
+                    "name": "amount_vat",
+                    "type": "number"
+                },
+                {
+                    "name": "amount_ex_vat",
+                    "type": "number"
+                },
+                {
+                    "name": "unit_amount",
+                    "type": "number"
+                },
+                {
+                    "name": "unit_amount_vat",
+                    "type": "number"
+                },
+                {
+                    "name": "unit_amount_ex_vat",
+                    "type": "number"
+                },
+                {
+                    "name": "amount_defined_incl_vat",
+                    "type": "boolean"
+                },
+                {
+                    "name": "origin_handle",
+                    "type": "text"
+                },
+                {
+                    "name": "period_from",
+                    "type": "text"
+                },
+                {
+                    "name": "period_to",
+                    "type": "text"
+                },
+                {
+                    "name": "discount_percentage",
+                    "type": "number"
+                },
+                {
+                    "name": "discounted_order_line",
+                    "type": "text"
+                }
+            ]
+        }
+    },
+    {
+        "name": "additional_costs",
+        "type": "array"
+    },
+    {
+        "name": "transactions",
+        "type": "array",
+        "spec": {
+            "type": "collection",
+            "spec": [
+                {
+                    "name": "id",
+                    "type": "text"
+                },
+                {
+                    "name": "state",
+                    "type": "text"
+                },
+                {
+                    "name": "invoice",
+                    "type": "text"
+                },
+                {
+                    "name": "type",
+                    "type": "text"
+                },
+                {
+                    "name": "amount",
+                    "type": "number"
+                },
+                {
+                    "name": "settled",
+                    "type": "text"
+                },
+                {
+                    "name": "authorized",
+                    "type": "text"
+                },
+                {
+                    "name": "failed",
+                    "type": "text"
+                },
+                {
+                    "name": "refunded",
+                    "type": "text"
+                },
+                {
+                    "name": "created",
+                    "type": "text"
+                },
+                {
+                    "name": "card_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "card",
+                            "type": "collection",
+                            "spec": [
+                                {
+                                    "name": "id",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "customer",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "created",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "fingerprint",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "reactivated",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "tightly_bound",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "gw_ref",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "card_type",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "exp_date",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "masked_card",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "last_success",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "last_failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "first_fail",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "error_code",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "error_state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "strong_authentication_status",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "three_d_secure_status",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "risk_rule",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "fingerprint",
+                            "type": "text"
+                        },
+                        {
+                            "name": "provider",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "gw_id",
+                            "type": "text"
+                        },
+                        {
+                            "name": "last_failed",
+                            "type": "text"
+                        },
+                        {
+                            "name": "first_failed",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "card_type",
+                            "type": "text"
+                        },
+                        {
+                            "name": "exp_date",
+                            "type": "text"
+                        },
+                        {
+                            "name": "masked_card",
+                            "type": "text"
+                        },
+                        {
+                            "name": "strong_authentication_status",
+                            "type": "text"
+                        },
+                        {
+                            "name": "three_d_secure_status",
+                            "type": "text"
+                        },
+                        {
+                            "name": "risk_rule",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_code",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_reference",
+                            "type": "text"
+                        },
+                        {
+                            "name": "text_on_statement",
+                            "type": "text"
+                        },
+                        {
+                            "name": "surcharge_fee",
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "name": "mpo_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "card",
+                            "type": "collection",
+                            "spec": [
+                                {
+                                    "name": "id",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "customer",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "created",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "fingerprint",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "reactivated",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "tightly_bound",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "gw_ref",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "card_type",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "exp_date",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "masked_card",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "last_success",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "last_failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "first_fail",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "error_code",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "error_state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "strong_authentication_status",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "three_d_secure_status",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "risk_rule",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "fingerprint",
+                            "type": "text"
+                        },
+                        {
+                            "name": "provider",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "gw_id",
+                            "type": "text"
+                        },
+                        {
+                            "name": "last_failed",
+                            "type": "text"
+                        },
+                        {
+                            "name": "first_failed",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "card_type",
+                            "type": "text"
+                        },
+                        {
+                            "name": "exp_date",
+                            "type": "text"
+                        },
+                        {
+                            "name": "masked_card",
+                            "type": "text"
+                        },
+                        {
+                            "name": "strong_authentication_status",
+                            "type": "text"
+                        },
+                        {
+                            "name": "three_d_secure_status",
+                            "type": "text"
+                        },
+                        {
+                            "name": "risk_rule",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_code",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_reference",
+                            "type": "text"
+                        },
+                        {
+                            "name": "text_on_statement",
+                            "type": "text"
+                        },
+                        {
+                            "name": "surcharge_fee",
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "name": "applepay_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "card",
+                            "type": "collection",
+                            "spec": [
+                                {
+                                    "name": "id",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "customer",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "created",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "fingerprint",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "reactivated",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "tightly_bound",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "gw_ref",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "card_type",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "exp_date",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "masked_card",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "last_success",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "last_failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "first_fail",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "error_code",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "error_state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "strong_authentication_status",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "three_d_secure_status",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "risk_rule",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "fingerprint",
+                            "type": "text"
+                        },
+                        {
+                            "name": "provider",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "gw_id",
+                            "type": "text"
+                        },
+                        {
+                            "name": "last_failed",
+                            "type": "text"
+                        },
+                        {
+                            "name": "first_failed",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "card_type",
+                            "type": "text"
+                        },
+                        {
+                            "name": "exp_date",
+                            "type": "text"
+                        },
+                        {
+                            "name": "masked_card",
+                            "type": "text"
+                        },
+                        {
+                            "name": "strong_authentication_status",
+                            "type": "text"
+                        },
+                        {
+                            "name": "three_d_secure_status",
+                            "type": "text"
+                        },
+                        {
+                            "name": "risk_rule",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_code",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_reference",
+                            "type": "text"
+                        },
+                        {
+                            "name": "text_on_statement",
+                            "type": "text"
+                        },
+                        {
+                            "name": "surcharge_fee",
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "name": "googlepay_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "card",
+                            "type": "collection",
+                            "spec": [
+                                {
+                                    "name": "id",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "customer",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "created",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "fingerprint",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "reactivated",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "tightly_bound",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "gw_ref",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "card_type",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "exp_date",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "masked_card",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "last_success",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "last_failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "first_fail",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "error_code",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "error_state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "strong_authentication_status",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "three_d_secure_status",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "risk_rule",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "fingerprint",
+                            "type": "text"
+                        },
+                        {
+                            "name": "provider",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "gw_id",
+                            "type": "text"
+                        },
+                        {
+                            "name": "last_failed",
+                            "type": "text"
+                        },
+                        {
+                            "name": "first_failed",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "card_type",
+                            "type": "text"
+                        },
+                        {
+                            "name": "exp_date",
+                            "type": "text"
+                        },
+                        {
+                            "name": "masked_card",
+                            "type": "text"
+                        },
+                        {
+                            "name": "strong_authentication_status",
+                            "type": "text"
+                        },
+                        {
+                            "name": "three_d_secure_status",
+                            "type": "text"
+                        },
+                        {
+                            "name": "risk_rule",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_code",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_reference",
+                            "type": "text"
+                        },
+                        {
+                            "name": "text_on_statement",
+                            "type": "text"
+                        },
+                        {
+                            "name": "surcharge_fee",
+                            "type": "number"
+                        }
+                    ]
+                },
+                {
+                    "name": "manual_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "method",
+                            "type": "text"
+                        },
+                        {
+                            "name": "comment",
+                            "type": "text"
+                        },
+                        {
+                            "name": "reference",
+                            "type": "text"
+                        },
+                        {
+                            "name": "payment_date",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "name": "viabill_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "viabill_id",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "name": "resurs_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "resurs_id",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "name": "klarna_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "type",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "klarna_id",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "name": "swish_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "swish_id",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "name": "paypal_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "paypal_id",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "name": "pgw_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "type",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "pgw_id",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "name": "mps_transaction",
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "error",
+                            "type": "text"
+                        },
+                        {
+                            "name": "ref_transaction",
+                            "type": "text"
+                        },
+                        {
+                            "name": "error_state",
+                            "type": "text"
+                        },
+                        {
+                            "name": "acquirer_message",
+                            "type": "text"
+                        },
+                        {
+                            "name": "mps_id",
+                            "type": "text"
+                        },
+                        {
+                            "name": "mps_subscription",
+                            "type": "collection",
+                            "spec": [
+                                {
+                                    "name": "id",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "customer",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "failed",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "created",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "url",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "tightly_bound",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "mps_state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "pending_expires",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "mps_payment_type",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "name": "credit_notes",
+        "type": "array",
+        "spec": {
+            "type": "collection",
+            "spec": [
+                {
+                    "name": "id",
+                    "type": "text"
+                },
+                {
+                    "name": "invoice",
+                    "type": "text"
+                },
+                {
+                    "name": "transaction",
+                    "type": "text"
+                },
+                {
+                    "name": "credit",
+                    "type": "text"
+                },
+                {
+                    "name": "amount",
+                    "type": "number"
+                },
+                {
+                    "name": "created",
+                    "type": "text"
+                },
+                {
+                    "name": "credit_note_lines",
+                    "type": "array",
+                    "spec": {
+                        "type": "collection",
+                        "spec": [
+                            {
+                                "name": "amount",
+                                "type": "number"
+                            },
+                            {
+                                "name": "text",
+                                "type": "text"
+                            },
+                            {
+                                "name": "quantity",
+                                "type": "number"
+                            },
+                            {
+                                "name": "order_line_id",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "dunning_start",
+        "type": "text"
+    },
+    {
+        "name": "dunning_count",
+        "type": "number"
+    },
+    {
+        "name": "dunning_expired",
+        "type": "text"
+    },
+    {
+        "name": "period_from",
+        "type": "text"
+    },
+    {
+        "name": "period_to",
+        "type": "text"
+    },
+    {
+        "name": "settle_later",
+        "type": "boolean"
+    },
+    {
+        "name": "settle_later_payment_method",
+        "type": "text"
+    },
+    {
+        "name": "billing_address",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "company",
+                "type": "text"
+            },
+            {
+                "name": "vat",
+                "type": "text"
+            },
+            {
+                "name": "attention",
+                "type": "text"
+            },
+            {
+                "name": "address",
+                "type": "text"
+            },
+            {
+                "name": "address2",
+                "type": "text"
+            },
+            {
+                "name": "city",
+                "type": "text"
+            },
+            {
+                "name": "country",
+                "type": "text"
+            },
+            {
+                "name": "email",
+                "type": "text"
+            },
+            {
+                "name": "phone",
+                "type": "text"
+            },
+            {
+                "name": "first_name",
+                "type": "text"
+            },
+            {
+                "name": "last_name",
+                "type": "text"
+            },
+            {
+                "name": "postal_code",
+                "type": "text"
+            },
+            {
+                "name": "state_or_province",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "shipping_address",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "company",
+                "type": "text"
+            },
+            {
+                "name": "vat",
+                "type": "text"
+            },
+            {
+                "name": "attention",
+                "type": "text"
+            },
+            {
+                "name": "address",
+                "type": "text"
+            },
+            {
+                "name": "address2",
+                "type": "text"
+            },
+            {
+                "name": "city",
+                "type": "text"
+            },
+            {
+                "name": "country",
+                "type": "text"
+            },
+            {
+                "name": "email",
+                "type": "text"
+            },
+            {
+                "name": "phone",
+                "type": "text"
+            },
+            {
+                "name": "first_name",
+                "type": "text"
+            },
+            {
+                "name": "last_name",
+                "type": "text"
+            },
+            {
+                "name": "postal_code",
+                "type": "text"
+            },
+            {
+                "name": "state_or_province",
+                "type": "text"
+            }
+        ]
+    }
+]

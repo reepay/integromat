@@ -1,0 +1,7 @@
+{
+    "url": "https://api.reepay.com/v1/subscription/{{parameters.subscription_handle}}",
+    "method": "GET",
+    "response": {
+        "output": "{{body}}"
+    }
+}

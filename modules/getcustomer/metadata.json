@@ -1,0 +1,8 @@
+{
+    "name": "getcustomer",
+    "label": "Get a Customer",
+    "description": "Returns a specific customer.",
+    "connection": "reepay-464012",
+    "webhook": null,
+    "type": "action"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "readinvoice",
+    "label": "Get an Invoice",
+    "description": "Get an Invoice",
+    "connection": "reepay-464012",
+    "webhook": null,
+    "type": "action"
+}

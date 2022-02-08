@@ -1,0 +1,8 @@
+{
+    "name": "getsubscription",
+    "label": "Get a Subscription",
+    "description": "Module to get a subscription",
+    "connection": "reepay-464012",
+    "webhook": null,
+    "type": "action"
+}

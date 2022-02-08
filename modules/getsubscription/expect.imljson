@@ -1,0 +1,8 @@
+[
+    {
+        "name": "subscription_handle",
+        "type": "text",
+        "label": "Subscription Handle",
+        "required": true
+    }
+]

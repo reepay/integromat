@@ -1,0 +1,509 @@
+[
+    {
+        "name": "handle",
+        "type": "text"
+    },
+    {
+        "name": "customer",
+        "type": "text"
+    },
+    {
+        "name": "plan",
+        "type": "text"
+    },
+    {
+        "name": "state",
+        "type": "text"
+    },
+    {
+        "name": "test",
+        "type": "boolean"
+    },
+    {
+        "name": "amount",
+        "type": "number"
+    },
+    {
+        "name": "quantity",
+        "type": "number"
+    },
+    {
+        "name": "expires",
+        "type": "text"
+    },
+    {
+        "name": "reactivated",
+        "type": "text"
+    },
+    {
+        "name": "timezone",
+        "type": "text"
+    },
+    {
+        "name": "created",
+        "type": "text"
+    },
+    {
+        "name": "activated",
+        "type": "text"
+    },
+    {
+        "name": "renewing",
+        "type": "text"
+    },
+    {
+        "name": "plan_version",
+        "type": "number"
+    },
+    {
+        "name": "amount_incl_vat",
+        "type": "boolean"
+    },
+    {
+        "name": "start_date",
+        "type": "text"
+    },
+    {
+        "name": "end_date",
+        "type": "text"
+    },
+    {
+        "name": "grace_duration",
+        "type": "number"
+    },
+    {
+        "name": "current_period_start",
+        "type": "text"
+    },
+    {
+        "name": "next_period_start",
+        "type": "text"
+    },
+    {
+        "name": "first_period_start",
+        "type": "text"
+    },
+    {
+        "name": "last_period_start",
+        "type": "text"
+    },
+    {
+        "name": "trial_start",
+        "type": "text"
+    },
+    {
+        "name": "trial_end",
+        "type": "text"
+    },
+    {
+        "name": "is_cancelled",
+        "type": "text"
+    },
+    {
+        "name": "in_trial",
+        "type": "text"
+    },
+    {
+        "name": "has_started",
+        "type": "boolean"
+    },
+    {
+        "name": "renewal_count",
+        "type": "number"
+    },
+    {
+        "name": "cancelled_date",
+        "type": "text"
+    },
+    {
+        "name": "expired_date",
+        "type": "text"
+    },
+    {
+        "name": "expire_reason",
+        "type": "text"
+    },
+    {
+        "name": "on_hold_date",
+        "type": "text"
+    },
+    {
+        "name": "on_hold_reason",
+        "type": "text"
+    },
+    {
+        "name": "payment_method_added",
+        "type": "boolean"
+    },
+    {
+        "name": "scheduled_plan_change",
+        "type": "text"
+    },
+    {
+        "name": "reminder_email_sent",
+        "type": "text"
+    },
+    {
+        "name": "failed_invoices",
+        "type": "number"
+    },
+    {
+        "name": "failed_amount",
+        "type": "number"
+    },
+    {
+        "name": "cancelled_invoices",
+        "type": "number"
+    },
+    {
+        "name": "cancelled_amount",
+        "type": "number"
+    },
+    {
+        "name": "pending_invoices",
+        "type": "number"
+    },
+    {
+        "name": "pending_amount",
+        "type": "number"
+    },
+    {
+        "name": "dunning_invoices",
+        "type": "number"
+    },
+    {
+        "name": "dunning_amount",
+        "type": "number"
+    },
+    {
+        "name": "settled_invoices",
+        "type": "number"
+    },
+    {
+        "name": "settled_amount",
+        "type": "number"
+    },
+    {
+        "name": "refunded_amount",
+        "type": "number"
+    },
+    {
+        "name": "pending_additional_costs",
+        "type": "number"
+    },
+    {
+        "name": "pending_additional_cost_amount",
+        "type": "number"
+    },
+    {
+        "name": "transferred_additional_costs",
+        "type": "number"
+    },
+    {
+        "name": "transferred_additional_cost_amount",
+        "type": "number"
+    },
+    {
+        "name": "pending_credits",
+        "type": "number"
+    },
+    {
+        "name": "pending_credit_amount",
+        "type": "number"
+    },
+    {
+        "name": "transferred_credits",
+        "type": "number"
+    },
+    {
+        "name": "transferred_credit_amount",
+        "type": "number"
+    },
+    {
+        "name": "hosted_page_links",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "payment_info",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "subscription_discounts",
+        "type": "array"
+    },
+    {
+        "name": "pending_change",
+        "type": "collection",
+        "spec": [
+            {
+                "name": "plan",
+                "type": "text"
+            },
+            {
+                "name": "amount",
+                "type": "number"
+            },
+            {
+                "name": "quantity",
+                "type": "number"
+            },
+            {
+                "name": "pending",
+                "type": "boolean"
+            },
+            {
+                "name": "applied",
+                "type": "text"
+            },
+            {
+                "name": "updated",
+                "type": "text"
+            },
+            {
+                "name": "created",
+                "type": "text"
+            },
+            {
+                "name": "amount_incl_vat",
+                "type": "text"
+            },
+            {
+                "name": "subscription_add_ons",
+                "type": "array",
+                "spec": {
+                    "type": "collection",
+                    "spec": [
+                        {
+                            "name": "handle",
+                            "type": "text"
+                        },
+                        {
+                            "name": "quantity",
+                            "type": "number"
+                        },
+                        {
+                            "name": "amount",
+                            "type": "number"
+                        },
+                        {
+                            "name": "name",
+                            "type": "text"
+                        },
+                        {
+                            "name": "description",
+                            "type": "text"
+                        },
+                        {
+                            "name": "created",
+                            "type": "text"
+                        },
+                        {
+                            "name": "add_on",
+                            "type": "collection",
+                            "spec": [
+                                {
+                                    "name": "name",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "amount",
+                                    "type": "number"
+                                },
+                                {
+                                    "name": "vat",
+                                    "type": "number"
+                                },
+                                {
+                                    "name": "handle",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "type",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "state",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "deleted",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "created",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "amount_incl_vat",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "all_plans",
+                                    "type": "text"
+                                },
+                                {
+                                    "name": "eligible_plans",
+                                    "type": "array"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "amount_incl_vat",
+                            "type": "boolean"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "remove_add_ons",
+                "type": "array"
+            }
+        ]
+    },
+    {
+        "name": "subscription_changes",
+        "type": "array",
+        "spec": {
+            "type": "collection",
+            "spec": [
+                {
+                    "name": "plan",
+                    "type": "text"
+                },
+                {
+                    "name": "amount",
+                    "type": "number"
+                },
+                {
+                    "name": "quantity",
+                    "type": "number"
+                },
+                {
+                    "name": "pending",
+                    "type": "boolean"
+                },
+                {
+                    "name": "applied",
+                    "type": "text"
+                },
+                {
+                    "name": "updated",
+                    "type": "text"
+                },
+                {
+                    "name": "created",
+                    "type": "text"
+                },
+                {
+                    "name": "amount_incl_vat",
+                    "type": "text"
+                },
+                {
+                    "name": "subscription_add_ons",
+                    "type": "array",
+                    "spec": {
+                        "type": "collection",
+                        "spec": [
+                            {
+                                "name": "handle",
+                                "type": "text"
+                            },
+                            {
+                                "name": "quantity",
+                                "type": "number"
+                            },
+                            {
+                                "name": "amount",
+                                "type": "number"
+                            },
+                            {
+                                "name": "name",
+                                "type": "text"
+                            },
+                            {
+                                "name": "description",
+                                "type": "text"
+                            },
+                            {
+                                "name": "created",
+                                "type": "text"
+                            },
+                            {
+                                "name": "add_on",
+                                "type": "collection",
+                                "spec": [
+                                    {
+                                        "name": "name",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "description",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "amount",
+                                        "type": "number"
+                                    },
+                                    {
+                                        "name": "vat",
+                                        "type": "number"
+                                    },
+                                    {
+                                        "name": "handle",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "type",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "state",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "deleted",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "created",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "amount_incl_vat",
+                                        "type": "boolean"
+                                    },
+                                    {
+                                        "name": "all_plans",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "name": "eligible_plans",
+                                        "type": "array"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "amount_incl_vat",
+                                "type": "boolean"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "remove_add_ons",
+                    "type": "array"
+                }
+            ]
+        }
+    },
+    {
+        "name": "subscription_add_ons",
+        "type": "array"
+    }
+]

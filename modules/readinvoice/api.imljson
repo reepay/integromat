@@ -1,0 +1,7 @@
+{
+    "url": "https://api.reepay.com/v1/invoice/{{parameters.invoice_handle}}",
+    "method": "GET",
+    "response": {
+        "output": "{{body}}"
+    }
+}

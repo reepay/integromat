@@ -1,0 +1,8 @@
+{
+    "name": "Trigger",
+    "label": "Events",
+    "description": "Trigger based upon a webhook",
+    "connection": null,
+    "webhook": "reepay-464012",
+    "type": "instant_trigger"
+}

@@ -1,0 +1,8 @@
+[
+    {
+        "name": "invoice_handle",
+        "type": "text",
+        "label": "Invoice Handle",
+        "required": true
+    }
+]

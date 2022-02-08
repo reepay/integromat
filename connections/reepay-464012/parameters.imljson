@@ -1,0 +1,8 @@
+[
+    {
+        "name": "priv_key",
+        "type": "text",
+        "label": "Private Key",
+        "required": true
+    }
+]

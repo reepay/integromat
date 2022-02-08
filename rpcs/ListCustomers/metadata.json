@@ -1,0 +1,5 @@
+{
+    "name": "ListCustomers",
+    "label": "List Customers",
+    "connection": "reepay-464012"
+}

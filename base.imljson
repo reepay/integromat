@@ -1,0 +1,17 @@
+{
+    "baseUrl": "https://api.reepay.com/v1/",
+    "log": {
+        "sanitize": [
+            "request.headers.authorization"
+        ]
+    },
+    "headers": {
+        "Content-Type": "application/json",
+        "authorization": "Basic {{base64(connection.priv_key + ':')}}"
+    },
+    "response": {
+        "error": {
+            "message": "[{{statusCode}}] {{body.error}} (error code: {{body.code}})"
+        }
+    }
+}

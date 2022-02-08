@@ -1,0 +1,6 @@
+{
+    "name": "reepay-464012",
+    "label": "Reepay Webhook",
+    "connection": "reepay-464012",
+    "type": "web"
+}

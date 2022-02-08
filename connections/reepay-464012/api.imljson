@@ -1,0 +1,16 @@
+{
+    "url": "https://api.reepay.com/v1/account",
+    "headers": {
+        "authorization": "Basic {{base64(parameters.priv_key + ':')}}"
+    },
+    "log": {
+        "sanitize": [
+            "request.headers.authorization"
+        ]
+    },
+    "response": {
+        "error": {
+            "message": "[{{statusCode}}] {{body.error}} (error code: {{body.code}})"
+        }
+    }
+}

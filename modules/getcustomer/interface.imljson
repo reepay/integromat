@@ -1,0 +1,212 @@
+[
+    {
+        "name": "email",
+        "lable": "Email",
+        "type": "text"
+    },
+    {
+        "name": "address",
+        "lable": "Address",
+        "type": "text"
+    },
+    {
+        "name": "address2",
+        "lable": "Address2",
+        "type": "text"
+    },
+    {
+        "name": "city",
+        "lable": "City",
+        "type": "text"
+    },
+    {
+        "name": "country",
+        "lable": "Country",
+        "type": "text"
+    },
+    {
+        "name": "phone",
+        "lable": "Phone",
+        "type": "text"
+    },
+    {
+        "name": "company",
+        "lable": "Company",
+        "type": "text"
+    },
+    {
+        "name": "vat",
+        "lable": "Vat",
+        "type": "text"
+    },
+    {
+        "name": "handle",
+        "lable": "Handle",
+        "type": "text"
+    },
+    {
+        "name": "test",
+        "lable": "Test",
+        "type": "boolean"
+    },
+    {
+        "name": "subscriptions",
+        "lable": "Subscriptions",
+        "type": "number"
+    },
+    {
+        "name": "created",
+        "lable": "Created",
+        "type": "text"
+    },
+    {
+        "name": "deleted",
+        "lable": "Deleted",
+        "type": "text"
+    },
+    {
+        "name": "first_name",
+        "lable": "First Name",
+        "type": "text"
+    },
+    {
+        "name": "last_name",
+        "lable": "Last Name",
+        "type": "text"
+    },
+    {
+        "name": "postal_code",
+        "lable": "Postal Code",
+        "type": "text"
+    },
+    {
+        "name": "active_subscriptions",
+        "lable": "Active Subscriptions",
+        "type": "number"
+    },
+    {
+        "name": "trial_active_subscriptions",
+        "lable": "Trial Active Subscriptions",
+        "type": "number"
+    },
+    {
+        "name": "trial_cancelled_subscriptions",
+        "lable": "Trial Cancelled Subscriptions",
+        "type": "number"
+    },
+    {
+        "name": "expired_subscriptions",
+        "lable": "Expired Subscriptions",
+        "type": "number"
+    },
+    {
+        "name": "on_hold_subscriptions",
+        "lable": "Subscriptions On Hold",
+        "type": "number"
+    },
+    {
+        "name": "cancelled_subscriptions",
+        "lable": "Cancelled Subscriptions",
+        "type": "number"
+    },
+    {
+        "name": "non_renewing_subscriptions",
+        "lable": "Non Renewing Subscriptions",
+        "type": "number"
+    },
+    {
+        "name": "failed_invoices",
+        "lable": "Failed Invoices",
+        "type": "number"
+    },
+    {
+        "name": "failed_amount",
+        "lable": "Failed Amount",
+        "type": "number"
+    },
+    {
+        "name": "cancelled_invoices",
+        "lable": "Cancelled Invoices",
+        "type": "number"
+    },
+    {
+        "name": "cancelled_amount",
+        "lable": "Cancelled Amount",
+        "type": "number"
+    },
+    {
+        "name": "pending_invoices",
+        "lable": "Pending Invoices",
+        "type": "number"
+    },
+    {
+        "name": "pending_amount",
+        "lable": "Pending Amount",
+        "type": "number"
+    },
+    {
+        "name": "dunning_invoices",
+        "lable": "Dunning Invoices",
+        "type": "number"
+    },
+    {
+        "name": "dunning_amount",
+        "lable": "Dunning Amount",
+        "type": "number"
+    },
+    {
+        "name": "settled_invoices",
+        "lable": "Settled Invoices",
+        "type": "number"
+    },
+    {
+        "name": "settled_amount",
+        "lable": "Settled Amount",
+        "type": "number"
+    },
+    {
+        "name": "refunded_amount",
+        "lable": "Refunded Amount",
+        "type": "number"
+    },
+    {
+        "name": "pending_additional_costs",
+        "lable": "Pending Additional Costs",
+        "type": "number"
+    },
+    {
+        "name": "pending_additional_cost_amount",
+        "lable": "Pending Additional Cost Amount",
+        "type": "number"
+    },
+    {
+        "name": "transferred_additional_costs",
+        "lable": "Transferred Additional Costs",
+        "type": "number"
+    },
+    {
+        "name": "transferred_additional_cost_amount",
+        "lable": "Transferred Additional Cost Amount",
+        "type": "number"
+    },
+    {
+        "name": "pending_credits",
+        "lable": "Pending Credits",
+        "type": "number"
+    },
+    {
+        "name": "pending_credit_amount",
+        "lable": "Pending Credit Amount",
+        "type": "number"
+    },
+    {
+        "name": "transferred_credits",
+        "lable": "Transferred Credits",
+        "type": "number"
+    },
+    {
+        "name": "transferred_credit_amount",
+        "lable": "Transferred Credit Amount",
+        "type": "number"
+    }
+]

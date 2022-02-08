@@ -1,0 +1,8 @@
+{
+    "name": "API",
+    "label": "Make an API call",
+    "description": "Make an API call to reepay",
+    "connection": "reepay-464012",
+    "webhook": null,
+    "type": "universal"
+}

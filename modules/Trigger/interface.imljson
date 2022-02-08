@@ -1,0 +1,30 @@
+[
+    {
+        "name": "id",
+        "type": "text"
+    },
+    {
+        "name": "timestamp",
+        "type": "date"
+    },
+    {
+        "name": "signature",
+        "type": "text"
+    },
+    {
+        "name": "subscription",
+        "type": "text"
+    },
+    {
+        "name": "customer",
+        "type": "text"
+    },
+    {
+        "name": "event_type",
+        "type": "text"
+    },
+    {
+        "name": "event_id",
+        "type": "text"
+    }
+]
